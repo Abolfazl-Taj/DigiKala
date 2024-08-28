@@ -1,0 +1,28 @@
+.FarsiSug{
+    @apply flex flex-col my-14
+}
+.Sug_Header{
+    @apply text-zinc-700/80 text-center text-[25px] my-4  
+}
+.Product_Continer{
+    @apply flex  flex-row-reverse items-center justify-center my-3
+}
+.SugProdouct{
+@apply flex flex-col justify-center my-6 mx-4
+}
+.Sug_Prodouct{
+@apply flex flex-col justify-end items-end my-2
+}
+.Sug_Cat{
+@apply font-bold text-zinc-700/70 my-1
+}
+.Sug_Desc{
+    font-family: sans-serif;
+@apply font-extralight text-zinc-400 text-[16px] my-2
+}
+.Sug_Pics{
+@apply flex flex-wrap
+}
+.Sug_Img{
+    @apply w-1/2 px-2
+}

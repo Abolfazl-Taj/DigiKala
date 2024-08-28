@@ -1,0 +1,56 @@
+.Wonder{
+@apply flex justify-between  bg-[#ef4056] py-4 rounded-xl px-3 h-[341px] text-zinc-700/70 my-12
+}
+.Wonder_Left{
+@apply w-4/5 bg-[#ef4056] 
+}
+.Prodouct_Name{
+    font-family: Arial, Helvetica, sans-serif;
+@apply text-[18px] font-bold
+}
+.Product_Price{
+    @apply text-[16px]
+}
+.Wonder_Right{
+@apply w-1/5 flex flex-col justify-center items-center
+}
+
+.Wonder_Desc{
+    @apply text-[#fdfdfd] relative px-2
+}
+.Wonder_Desc::after{
+    content: "\00276F";
+    transform: rotate(180deg);
+    @apply absolute left-0 top-[-3px]
+}
+.swiper {
+    @apply w-full h-full bg-transparent
+  }
+  .swiper-slide{
+    @apply  flex flex-col justify-center items-center rounded-xl relative
+  }
+  .Prodouct_Slide{
+    @apply  flex flex-col justify-center items-center p-4 rounded-xl relative 
+  }
+  .Prodcout_Slider_Pic{
+    @apply w-[300px]
+  }
+  .Wonder_Offer_Pic{
+    @apply w-[170px]
+}
+
+.Slider_Icons{
+    z-index: 9999999;
+    @apply flex absolute top-[12.5rem] bg-[#fff] items-center p-4 rounded-lg flex-row-reverse  justify-around shadow;
+    transition: all 0.15s ease-in;
+    opacity: 0;
+}
+.Slider_Icons i{
+    @apply text-[22px] m-1
+}
+.Slider_Icons i:hover{
+@apply text-red-700
+}
+.swiper-slide:hover  .Slider_Icons{
+    opacity: 1;
+}

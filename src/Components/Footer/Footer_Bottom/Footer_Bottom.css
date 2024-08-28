@@ -1,0 +1,22 @@
+.Footer_Bottom{
+    @apply mt-5 w-[1200px] flex flex-col justify-center 
+}
+.Footer_FasrisKala{
+@apply text-right my-4 text-zinc-700/80 text-[19px]
+}
+.Footer_Validations{
+@apply flex w-full flex-row-reverse justify-between items-center my-3
+}
+.Footer_Desc{
+@apply w-1/2 text-right text-zinc-500;
+line-height: 30px;
+}
+.Footer_Validation{
+@apply w-1/2 flex items-center
+}
+.Footer_Validation img{
+    @apply w-[120px]
+}
+.Footer_ForUs{
+@apply w-full text-[12px] text-zinc-500/50 text-center my-3
+}

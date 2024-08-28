@@ -1,0 +1,38 @@
+.FarsiPluse{
+    background-color: rgb(149, 29, 133);
+    @apply flex flex-row-reverse items-center justify-center px-3 py-4 rounded-xl my-12  shadow shadow-black
+}
+.FarsiPluse_Text{
+ @apply w-1/3 flex flex-col justify-center items-end h-[350px] relative
+}
+.FarsiPluse_Text img{
+    @apply w-[350px] h-[300px]
+}
+.FarsiPluse_Header{
+@apply text-white mx-5 my-1 font-black text-[40px];
+text-shadow: 1px 1px #111;
+}
+.FarsiPluse_Desc{
+@apply text-[18px] text-white font-black 
+}
+.FarsiPluse_Btn{
+@apply absolute top-28 right-4 border border-white py-2 px-6 text-[16px] text-white rounded-lg flex items-center justify-center
+}
+.FarsiSug_Prodouct{
+@apply flex justify-center items-center flex-col  bg-[#fdfdfd]  mx-2 w-1/3 rounded-lg shadow shadow-black h-[350px]
+}
+.Prodocuts_Pic{
+@apply  flex justify-center items-center flex-wrap 
+}
+.FarsiPluse_Img{
+@apply w-[110px] mx-1 my-4
+}
+.Prodcout_Text{
+    @apply flex w-full my-2 flex-row-reverse justify-between items-center text-purple-800
+}
+.Prodcout_Text h2{
+    @apply flex items-center justify-center mx-2 flex-row-reverse
+}
+.Prodcout_Text i{
+    @apply mx-2 text-[20px]
+}

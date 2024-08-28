@@ -1,0 +1,15 @@
+.Category{
+    @apply flex flex-col justify-center items-center
+}
+.Category_Text{
+@apply font-bold text-zinc-700/80 text-[22px]
+}
+.Category_Slider{
+@apply w-full h-[400px] my-6 relative py-12;
+}
+.Category_Pic{
+    @apply w-1/6
+  }
+  .Category_Slider .swiper-pagination-bullet {
+
+  }

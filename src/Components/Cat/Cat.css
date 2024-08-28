@@ -1,0 +1,12 @@
+.Cat{
+    @apply flex flex-row-reverse items-center my-12 justify-around
+}
+.Cat_Item{
+@apply w-1/12 flex flex-col items-center justify-center
+}
+.Cat_Item img{
+    @apply w-[70px]
+}
+.Cat_Desc{
+@apply my-3 text-zinc-950/60 text-[14px]
+}

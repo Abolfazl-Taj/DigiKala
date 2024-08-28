@@ -1,0 +1,40 @@
+.Footer_Top{
+    @apply flex flex-col mt-10
+}
+.Footer_Info{
+@apply flex w-full justify-between items-center
+}
+.Footer_Info_Left{
+    @apply w-1/2
+}
+.Footer_Btn{
+    @apply w-[150px] border border-zinc-800 py-2 text-[#111]/60 rounded-sm text-[15px] flex items-center justify-center
+}
+.Footer_Btn i{
+    @apply mx-2 text-zinc-700
+}
+.Footer_Info_Right{
+    @apply flex  flex-col items-end w-1/2
+}
+.Footer_Logo{
+    @apply w-[200px]
+}
+.Footer_Contact{
+    @apply text-right text-zinc-700/60 my-2
+}
+.Footer_Feua{
+    @apply flex justify-around flex-row-reverse items-center my-3 pb-6 relative
+}
+.Feau_Item{
+    @apply flex flex-col items-center justify-center w-1/5
+}
+.Feau_Text{
+    @apply mt-2 text-zinc-800/70 text-[16px]
+}
+.Feau_Pic{
+    @apply w-[90px] flex justify-center items-center h-[90px]
+}
+.Footer_Feua::after{
+    content: "";
+    @apply w-full bg-zinc-700/20 h-[1px] bottom-0 absolute
+}

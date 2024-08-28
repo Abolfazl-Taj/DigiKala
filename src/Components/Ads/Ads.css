@@ -1,0 +1,18 @@
+.Ads{
+    @apply my-12 flex justify-center items-center  p-2
+}
+
+.Ads img{
+    background-position: center;
+    background-size: contain;
+@apply rounded 
+}
+.add1{
+    @apply w-[290px] mx-2
+}
+.add2{
+    @apply w-1/2 mx-4
+}
+.add3{
+@apply w-full
+}

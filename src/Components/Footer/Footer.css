@@ -1,0 +1,4 @@
+.Footer{
+    font-family: shabnam;
+    @apply bg-gray-500/5 flex flex-col justify-center items-center mt-20
+}

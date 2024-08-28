@@ -1,0 +1,45 @@
+.Navbar{
+    font-family: shabnam;
+    @apply flex justify-center items-center text-zinc-800/70  p-3 bg-white my-0;
+    z-index: 9999999;
+}
+.Nav_LeftSide , .Nav_RightSide{
+    @apply mx-28
+}
+.Nav_LeftSide{
+@apply flex items-center justify-start px-12 
+}
+.Nav_Header{
+@apply flex items-center mx-3;
+transition: all 0.5s ease-in-out;
+
+}
+.Nav_Header p{
+    @apply mx-1 font-bold text-[14px]
+}
+.Nav_Header i{
+@apply text-[20px]
+}
+.Navbar_Icons{
+@apply flex mx-2 justify-around items-center 
+}
+.Navbar_Icons i{
+    transition: all 0.5s ease-in-out;
+    @apply text-[20px] mx-2
+}
+.Nav_RightSide{
+@apply flex justify-end items-center
+}
+.Navbar_List{
+@apply flex flex-row-reverse items-center
+}
+.Navbar_Item{
+@apply mx-6 text-[14px];
+transition: all 0.5s ease-in-out;
+}
+.Navbar_Item:hover ,.Nav_Header:hover ,  .Navbar_Icons i:hover {
+    @apply text-red-600
+}
+.NavbarCome{
+@apply top-0 fixed right-0  left-0 ;
+}

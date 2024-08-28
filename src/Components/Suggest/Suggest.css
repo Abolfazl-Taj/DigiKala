@@ -1,0 +1,18 @@
+.Suggest{
+    @apply flex flex-col justify-center items-center my-12 
+}
+.Suggest_Heder{
+@apply text-[22px] text-zinc-700/80 my-2
+}
+.Suggest_Products{
+@apply flex flex-wrap justify-center items-center
+}
+.Suggest_Item{
+@apply w-[150px] mx-2 flex flex-col justify-center items-center my-4 
+}
+.Suggest_Pic{
+ @apply  p-6 rounded-full
+}
+.Suggest_Prodouct_Name{
+@apply text-zinc-700/80
+}

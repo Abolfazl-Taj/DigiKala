@@ -1,0 +1,72 @@
+.Search{
+    font-family: shabnam;
+    @apply flex flex-row-reverse  justify-between items-center  mx-auto  py-5
+    max-sm:justify-center
+    md:w-[140%] md:mx-auto
+    lg:w-[110%]  lg:flex
+    xl:flex xl:w-[1200px] 
+}
+.Search_Bar , .Search_Contact{
+    @apply w-1/2 ml-14
+    md:w-1/2
+    lg:ml-1
+    xl:ml-14
+}
+.Search_Bar{
+@apply flex flex-row-reverse
+sm:justify-center sm:items-center sm:w-[600px]
+lg:justify-end
+xl:justify-normal xl:w-1/2
+}
+.Search_Bar img{
+    @apply 
+    sm:hidden
+    lg:w-[140px] lg:block
+    xl:w-[150px]
+}
+.Search_Continer{
+ @apply flex flex-row-reverse justify-center items-center w-[400px] border border-zinc-700/30 rounded-lg px-2
+ md:w-full
+ lg:w-[60%] 
+ xl:flex xl:flex-row-reverse xl:justify-center xl:items-center xl:w-[400px]
+ ;
+}
+.Search_Input{
+@apply w-full bg-[#fdfdfd]/60 p-1  text-zinc-700/70
+
+;
+outline: none;
+direction: rtl;
+}
+.Search_Icon{
+@apply text-[18px]
+}
+.Search_Contact{
+@apply flex flex-row-reverse justify-end items-center mr-12 
+sm:hidden
+md:flex
+}
+.Search_Items{
+@apply flex flex-row-reverse    justify-center items-center ;
+scale: 0.85;
+}
+.Contact_Icon{
+@apply mx-2 w-[50px] h-[50px] border border-zinc-700/40 flex justify-center items-center rounded-full text-zinc-700/80 shadow-sm;
+transition: all 0.75s ease-in-out;
+}
+.Search_IText{
+@apply text-zinc-600/80 font-black
+}
+.Search_Header{
+@apply flex flex-row-reverse items-center text-[15px]
+
+}
+.Search_Desc{
+    transition: all 0.75s ease-in-out;
+@apply text-[12px] text-zinc-700/60
+lg:text-[10px]
+xl:text-[12px]
+}
+.Search_Items:hover .Contact_Icon  , .Search_Items:hover .Search_Desc{
+    @apply text-red-500
+}

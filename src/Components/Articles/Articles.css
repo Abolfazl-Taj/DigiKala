@@ -1,0 +1,53 @@
+.Articles{
+    @apply flex flex-col justify-center items-center my-16;
+    overflow: hidden
+
+}
+.Articles_Header{
+@apply w-full text-right my-5 text-[22px] text-zinc-700/80
+}
+.Articles_Continer{
+@apply flex w-full justify-center items-center 
+}
+.Article_Img{
+@apply  h-[300px] w-[300px]
+}
+.Article{
+@apply w-1/4  border rounded flex flex-col justify-center items-center mx-[4px]
+}
+.img_c{
+    @apply w-full h-[200px];
+    overflow: hidden
+}
+.Article img{
+    @apply h-[200px] w-full;
+    transition: all 0.5s ease-in-out
+}
+.Article_Texts{
+@apply flex flex-col 
+}
+.Article_Header{
+@apply w-[250px] text-right text-[12px] text-zinc-700 font-black flex justify-end my-3 relative left-6;
+text-shadow: 1px 1px #fff;
+}
+.Article_Desc{
+@apply text-[12px] text-right px-1 my-2 text-neutral-700 relative flex items-center justify-center pb-4
+}
+.Article_Desc::after{
+content: "";
+@apply absolute w-[200px] h-[1px] bg-gray-500/40 right-[46px] bottom-0 
+}
+.Article_Info{
+@apply flex flex-row-reverse mx-3 text-[13px] text-gray-500/60 my-3
+}
+.Article_Icon{
+    @apply flex items-center
+}
+.Article_Icon i{
+    @apply mx-1
+}
+.Article:hover img{
+    scale: 1.3;
+    filter: brightness(60%);
+    background-color: #111;
+}

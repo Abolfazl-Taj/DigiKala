@@ -1,0 +1,33 @@
+.Pop{
+    @apply flex flex-col justify-center items-center my-12
+}
+.Pop_Header{
+@apply text-zinc-700/80 text-[22px]
+}
+.Pop_Slider{
+        width: 100%;
+        @apply flex justify-center items-center  h-[100px]
+      
+}
+.Brand_Logo{
+@apply w-[100px]
+}
+
+.Pop_Slider{
+@apply  flex justify-center items-center px-8 my-2
+  }
+.Pop_Slide{
+@apply px-2
+}
+.Pop_Slider .swiper-button-next , .Pop_Slider .swiper-button-prev{
+@apply  text-zinc-800
+
+}
+
+
+.Pop_Slide{
+  @apply flex justify-center items-center  w-[100px]
+}
+.Pop_Slider{
+  @apply flex justify-center items-center
+}

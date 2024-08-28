@@ -1,0 +1,47 @@
+.Footer_Middle{
+@apply flex flex-col items-center justify-center my-1
+}
+.Footer_Lists{
+@apply flex justify-between  w-[1200px] flex-row-reverse my-4
+}
+.Footer_List{
+@apply flex justify-center  flex-col
+}
+.List_Header{
+@apply w-full text-right my-2 text-zinc-800/80 text-[15px]
+}
+.Footer_Item{
+@apply my-1 text-right text-zinc-700/60 text-[14px]
+}
+.Footer_Fallow{
+@apply flex flex-col justify-center items-center
+}
+.Footer_Socials{
+@apply flex w-full justify-around items-center my-5 border border-zinc-800/20 rounded px-4 py-5
+}
+.Footer_Form{
+@apply flex flex-row-reverse w-full justify-center items-center bg-[lightgray]/15 p-2 rounded-lg
+}
+.Footer_Form i{
+  @apply mx-2   text-gray-600/40 text-[14px];
+}
+.Footer_Input{
+    font-family: sans-serif;
+    @apply bg-transparent text-right text-gray-600;
+    outline: none;
+}
+.Footer_App{
+    @apply flex flex-row-reverse items-center justify-between bg-slate-700/95 w-full rounded-xl p-2 my-4
+}
+.Footer_App_Left{
+@apply flex items-center w-1/2  flex-row-reverse
+}
+.Logo_Footer{
+    filter: brightness(1200%) contrast(400%) saturate(0%) blur(0px) hue-rotate(0deg);
+}
+.Footer_App_Header{
+@apply text-[22px] text-white
+}
+.Footer_App_Right{
+@apply flex w-1/2 px-2
+}
